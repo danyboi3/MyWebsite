@@ -63,10 +63,13 @@
 
 /*Navigation Bar*/
 ul.navbar {
-  background: #fff; /* Old browsers */
-  width: 960px;
-  margin: 2em auto;
-  list-style-type: none;
+	background: #fff; /* Old browsers */
+	width: 960px;
+	margin-top: 2em;
+	margin-right: 10em;
+	margin-left: 10em;
+	margin-bottom: 2em;
+	list-style-type: none;
 }
 
 ul.navbar li {
@@ -77,16 +80,16 @@ ul.navbar li {
 
 ul.navbar li a {
 	display: block;
-	color: #777 !important;
+	color: #000000 !important;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all .2s ease-in-out;
-	padding:10px 12px;
+	padding: 10px 12px;
 }
 
 ul.navbar li a:hover,
 ul.navbar li:hover > a {
-	background: #930659;
+	background: black;
 	color: #fff !important;
 }
 
@@ -118,4 +121,3 @@ ul.navbar li:hover > a {
 @media (max-width: 480px) {
 	
 }
-
