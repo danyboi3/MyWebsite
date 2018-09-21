@@ -1,0 +1,121 @@
+/*Desktop View*/
+
+/*Order Button*/
+.order-button{
+	text-decoration: none;
+	
+	color: #930659;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	
+	border: solid 2px #930659;
+	border-radius: 50px;
+	padding: 10px 40px;
+	
+	transition-duration: 200ms;
+	}
+
+.order-button:hover{
+	background-color: #930659;
+	color: #fff;
+	
+}
+
+.submit-button{
+	text-decoration: none;
+	
+	color: #930659;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	
+	border: solid 2px #930659;
+	border-radius: 20px;
+	padding: 5px 20px;
+	
+	transition-duration: 200ms;
+}
+
+.submit-button:hover{
+	background-color: #930659;
+	color: #fff;
+}
+
+/*Form E-commerce*/
+.customerinfo{
+	font-weight: bold;
+	margin-left: 3.5in;
+	margin-right: 3.5in;
+}
+	
+
+
+.contact {
+	margin-right: 3.5in;
+}
+
+.cardname	
+{
+	font-size: x-large;
+	font-weight: bold;
+}
+
+/*Navigation Bar*/
+ul.navbar {
+  background: #fff; /* Old browsers */
+  width: 960px;
+  margin: 2em auto;
+  list-style-type: none;
+}
+
+ul.navbar li {
+	float: left;
+	margin: 0;
+	position: relative;
+}
+
+ul.navbar li a {
+	display: block;
+	color: #777 !important;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+	padding:10px 12px;
+}
+
+ul.navbar li a:hover,
+ul.navbar li:hover > a {
+	background: #930659;
+	color: #fff !important;
+}
+
+.SKU {
+	font-size: x-large;
+	font-weight: bold;
+	height: 3px;
+	width: 6px;
+}
+
+
+.prod-details {
+	font-size: large;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+	color: #FF0004;
+}
+
+
+/*Tablet View*/
+
+@media (max-width: 768px) {
+	
+}
+
+
+/*Mobile View*/
+
+@media (max-width: 480px) {
+	
+}
+
